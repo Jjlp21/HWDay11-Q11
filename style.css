@@ -1,47 +1,23 @@
-*{background-color: rgb(40, 42, 53);
-align-items: center;
-font-weight: bold;
-font-size:20px;
-font-family: Verdana,sans-serif;}
+body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255,143,51);
+    background: linear-gradient(180deg, rgba(255,143,51,1) 13%, rgba(56,110,35,0) 40%, rgba(39,105,33,1) 92%);    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 
-div{ margin-top: 200px;
-display: flex;
-flex-direction: column;}
+.container {
+    color: grey;
+    background-color: rgba(255, 255, 255, 0.288);
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:100px;
+}
 
-table{
-padding: 30px;
-margin-top: 10px;
-text-align:left;
-color:white;
-word-spacing: 200px;
-margin-left: auto;
-margin-right: auto;}
 
-input{background-color:white;
-height:30px;
-width:20%;
-border-radius: 5px;}
-
-button{background-color:#04AA6D;
-color:white;
-height:36px;
-width:5%;
-border-radius: 10px;
-margin-top: 5px;}
-
-td{color:rgba(255, 255, 255, 0.534);
-padding: 10px;
-border-bottom: 1px solid rgba(255, 255, 255, 0.445);}
-
-#emptycell{border-bottom: none;}
-
-#imp{background-color:rgb(46, 49, 65);
-font-size: 30px;
-position: relative;
-top:25px;
-border-bottom: none;}
-
-button:hover{
-background-color:#088155;
-box-shadow: #094d34;
-cursor: pointer;}
