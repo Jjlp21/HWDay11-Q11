@@ -1,34 +1,12 @@
-h1{ text-align: center;
-    color:white;
-    background-color: red;
-margin-top: auto;}
-  
-    input[type=text] {
-        border: none;
-        border-bottom: 1px solid #000000;
-    
-    }
-fieldset {border: solid 3px;}
 
-#content{
-    width:50%;
-border : 2px solid #000000;
-margin:auto;
+
+body{background-color:black;}
+
+.main{background-color:white;
+width:50%;
+margin: auto;
 margin-top:10%;
-padding:20px;
-background-color:white;
+padding: 10px;
+
+
 }
-
-
-#address{width:80%}
-
-#city,#state,#zip{
-    width: 15%;
-}
-
-#fname,#lname{width: 35%}
-
-body{background-color: #000000;}
-
-#top{background-color:white}
-#bottom{background-color:white}
