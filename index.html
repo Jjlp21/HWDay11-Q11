@@ -1,59 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form-with radio</title>
+    <title>Mag-O-Zine</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-<form align="center"  action="">
-    <fieldset style="width: 50%;">
-        <header>
-            
-        <h1>    
-            <u>
-            Contact us
-        </u>
-    </h1>
-        
-        </header>
 
-    <br><br>
-    <tr>
-        <td><b>Name</td> 
-        <input type="text">
-    </tr>
-    <br><br><br>
-    
-        <td>Email</td>
-        <input type="email">
-    </tr>
-    <br><br><br>
+<div id="content">
+   <form action="" >
 
-    
-        <td>Phone</td>
-        <input type="text">
-    </tr>
-    <br><br><br>
-        
-        <td> Employee Type </td> <br> <br>
-       <input type="radio" name ="emptype">
-          <label for="">Salaried</label>
-        <input type="radio" name = "emptype">
-           <label for="">Self-Employed</label>
+    <fieldset>
+        <div id="top">
+          <h1>Yes! I want to subscribe to <i>Mag-O-Zine</i></h1>
+          <label for="Firstname">First Name</label> <input type="text" id="fname">
+          <label for="Lastname">Last Name</label> <input type="text" id="lname"> <br><br>
+          <label for="Address">Address</label> <input type="text" id="address"> <br><br>
+          <label for="City">City</label> <input type="text" id="city">
+          <label for="State">State</label> <input type="text" id="state"><label for="Zip">Zip</label> <input type="text" id="zip"><br><br>
+        </div>
+        <div id="bottom"><b>
+          <label for="Subscribe">Subscribe for: </label><input type="checkbox">1 year ($19.95) <input type="checkbox">2 years ($35.00) <br>
+          <label for="moreinfo">Send me more information about:</label> <br><br>
+          <input type="checkbox"> Computer-Zine<br>
+          <input type="checkbox">Fishing-Zine<br>
+          <input type="checkbox">Cat-O-Zine
+        </div>
 
-    <br><br><br>
-        <td>Your Message</td>
-        <textarea></textarea>
-    </tr>
-    <br><br><br>
-<button>Submit</button>
+    </fieldset>
 
-</fieldset>
-</form>
+   </form>
 </div>
 </body>
 </html>
+
